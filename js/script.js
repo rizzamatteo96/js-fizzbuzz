@@ -15,10 +15,10 @@ for (var i = 1; i <= 100; i++){
     } else {
         var msg = i;
     }
-
     document.getElementById('risultato').innerHTML += msg + '<br>';
 }
 
+// CON QUESTA SOLUZIONE AGGIUNGERE IL CONTROLLO AL MULTIPLO DI 6 RISULTA IMPROPONIBILE ANCHE SE FATTIBILE PER CUI L'HO FATTA SOLO NELLA SOLUZIONE ALTERNATIVA CHE RISULTA PIU' IMMEDIATA E MENO LUNGA
 
 
 
