@@ -2,7 +2,7 @@
 
 //-------------PRIMA SOLUZIONE-------------
 // 1. stampiamo i numeri da 1 a 100
-for (var i = 1; i < 100; i++){
+for (var i = 1; i <= 100; i++){
     // console.log(i);
 
     // 2. verificare SE multipli di 3 o 5 o entrambi e aggiungere Fit o Buzz
@@ -24,11 +24,11 @@ for (var i = 1; i < 100; i++){
 
 //-------------SOLUZIONE ALTERNATIVA-------------
 // 1. stampiamo i numeri da 1 a 100
-for (var i = 1; i < 100; i++){
+for (var i = 1; i <= 100; i++){
 
     // 2. verificare SE multipli di 3 o 5 o entrambi e aggiungere Fit o Buzz
     
-    var msg = i;
+    var msg = i + ' ';
 
     // Verifico se numero è multiplo di 3
     if (i % 3 == 0){
