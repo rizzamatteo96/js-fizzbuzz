@@ -40,5 +40,10 @@ for (var i = 1; i <= 100; i++){
         msg += 'Buzz';
     }
 
+    // verifico se numero è multiplo di 6
+    if(i % 6 == 0){
+        msg += 'Boolean';
+    }
+
     document.getElementById('risultato').innerHTML += msg + '<br>';
 }
